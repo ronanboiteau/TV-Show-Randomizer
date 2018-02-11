@@ -57,8 +57,8 @@ TVSR will output a random episode between all the episodes found in the file(s) 
 
 Here is a list of the `.tvsr` files located in the `shows/` directory:
 
- - **Friends.tvsr** - All episodes
- - **How-I-Met-Your-Mother.tvsr** - All episodes
+ - **[Friends.tvsr]** - All episodes
+ - **[How-I-Met-Your-Mother.tvsr]** - All episodes
 
 ## Contributing
 
@@ -71,3 +71,5 @@ Contribution guidelines are coming soon.
 <!-- Links -->
 [Elixir]: https://elixir-lang.org/install.html
 [TV Show Randomizer]: https://github.com/ronanboiteau/TV-Show-Randomizer
+[Friends.tvsr]: /shows/How-I-Met-Your-Mother.tvsr
+[How-I-Met-Your-Mother.tvsr]: /shows/Friends.tvsr
