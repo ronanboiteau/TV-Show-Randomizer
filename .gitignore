@@ -23,7 +23,7 @@ erl_crash.dump
 tvsr-*.tar
 
 # Ignore executable
-tvsr
+/tvsr
 
 # IDE data
 .idea/
