@@ -53,7 +53,7 @@ Pass **one or more** `.tvsr` file(s) as argument(s) to the `tvsr` executable:
 
 TVSR will output a random episode between all the episodes found in the file(s) you passed as parameter(s).
 
-### Available TV Shows
+## Available TV Shows
 
 Here is a list of the `.tvsr` files located in the `shows/` directory:
 
