@@ -24,7 +24,7 @@ mix escript.build
 
 ### File format
 
-TVSR interprets `.tvsr` files in order to select episodes. These files must follow two rules:
+TVSR interprets `.tvsr` files in order to select episodes. These files must follow some rules:
 
  - They should be named after a TV Show, with spaces replaced by hyphens (eg. `How-I-Met-Your-Mother.tvsr`)
  - They should contain 1 JSON-formatted episode per line. Example:
@@ -32,6 +32,16 @@ TVSR interprets `.tvsr` files in order to select episodes. These files must foll
 ```
 {"season": 1, "episode": 1, "title": "Pilot"}
 {"season": 1, "episode": 2, "title": "Purple Giraffe"}
+```
+
+ - Empty lines can by used as separotors. You can use them to separate seasons inside your `.tvsh` files:
+
+```
+{"season": 1, "episode": 21, "title": "Milk"}
+{"season": 1, "episode": 22, "title": "Come On"}
+
+{"season": 2, "episode": 1, "title": "Where Were We?"}
+{"season": 2, "episode": 2, "title": "The Scorpion and the Toad"}
 ```
 
 Some `.tvsr` sample files can be found in the `shows/` directory:
