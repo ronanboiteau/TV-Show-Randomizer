@@ -17,6 +17,6 @@ defmodule TVSR do
     rand_ep =
       TVSR.get_episodes(files)
       |> Enum.random()
-    IO.puts("#{rand_ep["show"]} - S#{rand_ep["season"]} E#{rand_ep["episode"]} - #{rand_ep["title"]}")
+    IO.puts("[#{rand_ep["show"]}] S#{rand_ep["season"]} E#{rand_ep["episode"]} - #{rand_ep["title"]}")
   end
 end
