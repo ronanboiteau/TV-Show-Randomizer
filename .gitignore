@@ -27,3 +27,4 @@ tvsr-*.tar
 
 # IDE data
 .idea/
+*.iml
