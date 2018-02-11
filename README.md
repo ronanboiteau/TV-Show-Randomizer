@@ -34,9 +34,9 @@ Some `.tvsr` sample files can be found in the `shows/` directory:
 
 ### Using TVSR
 
-Pass one or more `.tvsr` file(s) as argument(s) to the `tvsr` executable:
+Pass **one or more** `.tvsr` file(s) as argument(s) to the `tvsr` executable:
 ```
-./tvsr [files]
+./tvsr [file1] [file2] ... [fileN]
 ```
 
 ## Author
