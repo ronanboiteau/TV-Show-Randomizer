@@ -55,6 +55,8 @@ Pass **one or more** `.tvsr` file(s) as argument(s) to the `tvsr` executable:
 ./tvsr [file1] [file2] ... [fileN]
 ```
 
+TVSR will output a random episode between all the episodes found in the file(s) you passed as parameter(s).
+
 ## Author
 
  - **Ronan Boiteau** ([GitHub](https://github.com/ronanboiteau) / [LinkedIn](https://www.linkedin.com/in/ronanboiteau/))
