@@ -16,7 +16,7 @@ TV Show Randomizer (TVSR) helps you choosing which episode from your favorite TV
 mix deps.get
 ```
 
- 2. You can then navigate to the root of the repository from your Terminal and run the following command to build the `tvsr` executable:
+ 2. You can then run the following command to build the `tvsr` executable:
 
 ```
 mix escript.build
