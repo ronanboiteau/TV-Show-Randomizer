@@ -22,7 +22,25 @@ mix deps.get
 mix escript.build
 ```
 
-### File format
+### Using TVSR
+
+Pass **one or more** `.tvsr` file(s) as argument(s) to the `tvsr` executable:
+```
+./tvsr [file1] [file2] ... [fileN]
+```
+
+TVSR will output a random episode between all the episodes found in the file(s) you passed as parameter(s).
+
+## Available TV Shows
+
+TVSR interprets `.tvsr` files in order to select episodes.
+
+Here is a list of the `.tvsr` files available in the `shows/` directory:
+
+ - **[Friends.tvsr]** - All episodes
+ - **[How-I-Met-Your-Mother.tvsr]** - All episodes
+
+## File format
 
 TVSR interprets `.tvsr` files in order to select episodes. These files must follow some rules:
 
@@ -43,22 +61,6 @@ TVSR interprets `.tvsr` files in order to select episodes. These files must foll
 {"season": 2, "episode": 1, "title": "Where Were We?"}
 {"season": 2, "episode": 2, "title": "The Scorpion and the Toad"}
 ```
-
-### Using TVSR
-
-Pass **one or more** `.tvsr` file(s) as argument(s) to the `tvsr` executable:
-```
-./tvsr [file1] [file2] ... [fileN]
-```
-
-TVSR will output a random episode between all the episodes found in the file(s) you passed as parameter(s).
-
-## Available TV Shows
-
-Here is a list of the `.tvsr` files located in the `shows/` directory:
-
- - **[Friends.tvsr]** - All episodes
- - **[How-I-Met-Your-Mother.tvsr]** - All episodes
 
 ## Contributing
 
