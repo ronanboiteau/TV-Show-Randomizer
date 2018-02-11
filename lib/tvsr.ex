@@ -1,5 +1,4 @@
 defmodule TVSR do
-
   def get_episodes([]) do
     Program.abort("You must have at least one '.tvsr' file in the parameters.")
   end
@@ -13,10 +12,10 @@ defmodule TVSR do
   end
 
   def main(args) do
-    {_, files, _} = OptionParser.parse(args, strict: [file: :string, season: :integer], aliases: [f: :file, s: :season])
+    {_, files, _} = OptionParser.parse(args, strict: [file: :string, season: :integer],
+                                             aliases: [f: :file, s: :season])
     TVSR.get_episodes(files)
     |> Enum.random()
     |> IO.puts()
   end
-
 end
