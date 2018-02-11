@@ -45,4 +45,4 @@ Pass **one or more** `.tvsr` file(s) as argument(s) to the `tvsr` executable:
 
 <!-- Links -->
 [Elixir]: https://elixir-lang.org/install.html
-[TV Show Randomizer]: https://github.com/ronanboiteau/TV-Show-Ramdomizer
+[TV Show Randomizer]: https://github.com/ronanboiteau/TV-Show-Randomizer
