@@ -44,9 +44,12 @@ TVSR interprets `.tvsr` files in order to select episodes. These files must foll
 {"season": 2, "episode": 2, "title": "The Scorpion and the Toad"}
 ```
 
-Some `.tvsr` sample files can be found in the `shows/` directory:
+### Available `.tvsr` files
 
- - **Friends.tvsr**
+Here is a list of the `.tvsr` files located in the `shows/` directory:
+
+ - **Friends.tvsr** - All episodes
+ - **How-I-Met-Your-Mother.tvsr** - All episodes
 
 ### Using TVSR
 
@@ -56,6 +59,10 @@ Pass **one or more** `.tvsr` file(s) as argument(s) to the `tvsr` executable:
 ```
 
 TVSR will output a random episode between all the episodes found in the file(s) you passed as parameter(s).
+
+## Contributing
+
+Contribution guidelines are coming soon.
 
 ## Author
 
