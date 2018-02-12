@@ -42,7 +42,7 @@ Here is a list of the `.tvsr` files available in the `shows/` directory:
 
 ## File format
 
-TVSR interprets `.tvsr` files in order to select episodes. These files must follow some rules:
+`.tvsr` files must follow some rules:
 
  - They should be named after a TV Show, with spaces replaced by hyphens (eg. `How-I-Met-Your-Mother.tvsr`)
  - They should contain 1 JSON-formatted episode per line. Example:
