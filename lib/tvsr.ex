@@ -12,8 +12,8 @@ defmodule TVSR do
   end
 
   def main(args) do
-    {_, files, _} = OptionParser.parse(args, strict: [file: :string, season: :integer],
-                                             aliases: [f: :file, s: :season])
+    {_, files, _} = OptionParser.parse(args, strict: [file: :string],
+                                             aliases: [f: :file])
     rand_ep =
       TVSR.get_episodes(files)
       |> Enum.random()
