@@ -62,9 +62,19 @@ Here is a list of the `.tvsr` files available in the `shows/` directory:
 {"season": 2, "episode": 2, "title": "The Scorpion and the Toad"}
 ```
 
-## Contributing
+## Getting involved
 
-Contribution guidelines are coming soon.
+### Share
+
+ - Enjoying TV Show Randomizer? Leave it [a star](https://github.com/ronanboiteau/TV-Show-Randomizer/stargazers) to show your support :)
+ - And share the link to this repository with your friends!
+
+### Contribute
+
+You want to add awesome features to TV Show Randomizer? Or add a new TV Show file? Here's how:
+ 1. [Fork](https://github.com/ronanboiteau/TV-Show-Randomizer/network/members) TVSR
+ 2. Commit & push a new feature to the forked repository
+ 3. Open a [pull request](https://github.com/ronanboiteau/TV-Show-Randomizer/pulls) so I can merge your work in this repository :)
 
 ## Author
 
