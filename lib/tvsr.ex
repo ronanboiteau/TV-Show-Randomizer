@@ -7,7 +7,7 @@ defmodule TVSR do
     TVSR.FileReader.get_episodes_from_file(path)
   end
 
-  def get_episodes([ path | list]) do
+  def get_episodes([ path | list ]) do
     TVSR.FileReader.get_episodes_from_file(path) ++ TVSR.get_episodes(list)
   end
 
