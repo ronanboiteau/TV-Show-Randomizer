@@ -76,10 +76,6 @@ You want to add awesome features to TV Show Randomizer? Or add a new TV Show fil
  2. Commit & push a new feature to the forked repository
  3. Open a [pull request](https://github.com/ronanboiteau/TV-Show-Randomizer/pulls) so I can merge your work in this repository :)
 
-## Author
-
- - **Ronan Boiteau** ([GitHub](https://github.com/ronanboiteau) / [LinkedIn](https://www.linkedin.com/in/ronanboiteau/))
-
 <!-- Links -->
 [Elixir]: https://elixir-lang.org/install.html
 [TV Show Randomizer]: https://github.com/ronanboiteau/TV-Show-Randomizer
