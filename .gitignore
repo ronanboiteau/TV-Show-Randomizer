@@ -24,3 +24,6 @@ tvsr-*.tar
 
 # Ignore executable
 /tvsr
+
+# macOS
+.DS_Store
